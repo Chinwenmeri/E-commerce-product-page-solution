@@ -16,7 +16,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ## Overview
 
-This is an amazing project to do to improve some core frontend design skills like mastering flexboxes and spacing and adding functionality with JavaScript.
+This is an amazing project that will improve some core frontend design skills, such as mastering flexboxes and spacing and adding functionality with JavaScript.
 
 ### The challenge
 
@@ -32,8 +32,8 @@ In building this project, I was able
 
 ### Links
 
-- Solution URL: [My solution]([https://e-commerce-product-page-solution-ten.vercel.app/#](https://github.com/Chinwenmeri/E-commerce-product-page-solution)
-- Live Site URL: [Live URL to project](https://e-commerce-product-page-solution-ten.vercel.app/#)
+- Solution URL: [my solution ](https://github.com/Chinwenmeri/E-commerce-product-page-solution)
+- Live Site URL: [Live URL to the project](https://e-commerce-product-page-solution-ten.vercel.app/#)
 
 ## My process
 
@@ -45,12 +45,12 @@ In building this project, I was able
 
 ### What I learned
 
-I better practised flex boxes and handled adding functionality to elements in Javascript.
-I worked for the first time with the dialog tag and this was interesting as I would be working with it more to better understand it and perfect the usage.
+I practised flex boxes and handled adding functionality to elements in Javascript.
+I worked for the first time with the dialog tag and this was interesting as I would be working with it more to understand it better and learn how to work with and design this tag.
 
 ### Continued development
 
-In this project and in subsequent projects, I intend to better understand the Javascript aspects of the projects I intend to work on.
+In this project and subsequent projects, I intend to better understand the Javascript aspects of the projects I intend to work on.
 Also to understand the logic behind how the cart works as I wasn't able to implement that function on this project. I also want to better understand how responsiveness works so to add them with more intentionality to the project I would be building in the future.
 
 ## Author
