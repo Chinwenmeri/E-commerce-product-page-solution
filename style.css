@@ -6,6 +6,8 @@ body{
 nav{
     width: 80%;
     margin: 0 auto;
+}
+#nav-content{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #c6c9cc;
@@ -22,6 +24,14 @@ nav{
 }
 #logo-nav ul li{
     margin: 10px;
+}
+#logo-nav ul li a{
+    text-decoration: none;
+    color: #7e8185;
+}
+#logo-nav ul li a:hover{
+    color: #191919;
+    border-bottom: 2px solid #c76317;
 }
 #cart-profile ul{
     list-style: none;
