@@ -32,8 +32,8 @@ In building this project, I was able
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution]([https://e-commerce-product-page-solution-ten.vercel.app/#](https://github.com/Chinwenmeri/E-commerce-product-page-solution)
+- Live Site URL: [Live URL to project](https://e-commerce-product-page-solution-ten.vercel.app/#)
 
 ## My process
 
