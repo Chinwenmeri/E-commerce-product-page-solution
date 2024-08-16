@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+body{
+    font-family: "Kumbh Sans", sans-serif;
+    background: #FEFEFE;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c9cc;
+}
+#logo-nav{
+    display: flex;
+    align-items: center ;
+    padding: 10px;
+}
+#logo-nav ul{
+    display: flex;
+    list-style: none;
+    color: #7e8185;
+}
+#logo-nav ul li{
+    margin: 10px;
+}
+#cart-profile ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#cart-profile ul li{
+    margin: 10px;
+}
+#cart-profile ul .profile{
+    height: 40px;
+    width: 42px;
+}
+#main-content{
+    position: relative; 
+    top: 40px;
+    left: 70px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+#img-section{
+    padding: 20px 50px;
+}
+#img-section .open-shoe{
+    height: 400px;
+    border-radius: 10%;
+    object-fit:fill;
+}
+#img-section ul{
+    display: flex;
+    list-style: none;
+}
+#img-section ul #thumbnails{
+    width:80px;
+    margin: 10px;
+    position: relative;
+    right: 35px;
+    border-radius: 20%;
+}
+#img-section ul #thumbnails:hover{
+    opacity: .5;
+    border: 3px solid #c76317;
+}
+#text-section{
+    position: relative;
+    max-width: 40%;
+    top: 90px;
+}
+#text-section .small-p{
+    font-size: 10px;
+    color: #7e8185;
+}
+#text-section h1{
+    color: #191919;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#text-section .big-p{
+    font-size: 15px;
+    color: #7e8185;
+}
+#text-section .price-main{
+    color: #191919;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#text-section .price_off{
+    background: #191919;
+    color: #fff;
+    font-size: 1em;
+    padding: 2px 5px;
+    margin: 5px;
+    border-radius: 10%;
+}
+#text-section .old-price{
+    text-decoration: line-through;
+    color: #7e8185;
+    font-size: 1em;
+}
+#add_cart{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+#add_cart .num_cart_btn ul{
+    display: flex;
+    list-style: none;
+    padding: 0 0;
+    margin: 10px;
+    border-radius: 10px;
+    background: #eef4fa;
+}
+#add_cart .num_cart_btn ul li{
+    margin: 10px;
+    padding: 5px 10px;
+}
+#add_cart .add_cart_btn ul{
+    display: flex;
+    list-style: none;
+    padding: 0 0;
+    border-radius: 10px;
+    background: #e07a2c;
+}
+#add_cart .add_cart_btn ul li{
+    margin: 10px;
+    padding: 5px 10px ;
+    cursor: grab;
+}
+#add_cart .add_cart_btn ul li img{
+    position: relative;
+    left: 30px;
+}
+#add_cart .add_cart_btn ul li span{
+    color: #191919;
+    font-weight: bold;
+    font-size: 15px;
+}
+.modal {
+    padding: 1em;
+    width: 50ch;
+    height: 60ch;
+    border: 0;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    & > * {
+      margin: 0 0 0.5rem 0;
+    }
+  }
+.modal #img-section .main-shoe{
+    height: 400px;
+}
+.modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+  }
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce website</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo-nav">
+                <img src="./images/logo.svg" alt="sneakers logo" class="logo-img">
+                <ul class="nav-items">
+                    <li>Collections</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div id="cart-profile">
+                <ul class="cart-images">
+                    <li>
+                        <img src="./images/icon-cart.svg" alt="cart image">
+                    </li>
+                    <li>
+                        <img src="./images/image-avatar.png" alt="image avatar for profile" class="profile">
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div id="main-content">
+            <div id="img-section">
+                <img class="open-shoe" src="./images/image-product-1.jpg" alt=" image of a shoe">
+                <ul>
+                    <li><img id="thumbnails" src="./images/image-product-1-thumbnail.jpg" onclick="imgSlider('./images/image-product-1.jpg')" alt=""></li>
+                    <li><img id="thumbnails" src="./images/image-product-2-thumbnail.jpg" onclick="imgSlider('./images/image-product-2.jpg')" alt=""></li>
+                    <li><img id="thumbnails" src="./images/image-product-3-thumbnail.jpg" onclick="imgSlider('./images/image-product-3.jpg')" alt=""></li>
+                    <li><img id="thumbnails" src="./images/image-product-4-thumbnail.jpg" onclick="imgSlider('./images/image-product-4.jpg')" alt=""></li>
+                </ul>
+            </div>
+            <div id="text-section">
+                <p class="small-p">SNEAKER COMPANY</p>
+                <h1>Fall Limited Edition<br>Sneakers</h1>
+                <p class="big-p">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+                <p><span class="price-main">$125.00</span> <span class="price_off">50%</span><br> <span class="old-price">$250.00</span>
+                </p>
+                <ul id="add_cart">
+                    <li class="num_cart_btn">
+                        <ul>
+                            <li><a href="#"><img 
+                                src="./images/icon-minus.svg" 
+                                alt="minus sign to remove from cart" 
+                                id="sub_btn"
+                                onclick="decrement()">
+                                </a>
+                            </li>
+                            <li><span id="cart_num">0</span></li>
+                            <li><a href="#"><img 
+                                src="./images/icon-plus.svg" 
+                                alt="minus sign to add to cart" 
+                                id="add_btn"
+                                onclick="increment()">
+                            </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="add_cart_btn">
+                        <ul>
+                            <li><img src="./images/icon-cart.svg" alt="cart symbol"></li>
+                            <li><span>Add to cart</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    <dialog class="modal" id="modal">
+        <div id="img-section">
+            <img class="open-shoe" src="./images/image-product-1.jpg" alt=" image of a shoe">
+            <ul>
+                <li><img id="thumbnails" src="./images/image-product-1-thumbnail.jpg" onclick="imgSlider('./images/image-product-1.jpg')" alt=""></li>
+                <li><img id="thumbnails" src="./images/image-product-2-thumbnail.jpg" onclick="imgSlider('./images/image-product-2.jpg')" alt=""></li>
+                <li><img id="thumbnails" src="./images/image-product-3-thumbnail.jpg" onclick="imgSlider('./images/image-product-3.jpg')" alt=""></li>
+                <li><img id="thumbnails" src="./images/image-product-4-thumbnail.jpg" onclick="imgSlider('./images/image-product-4.jpg')" alt=""></li>
+            </ul>
+        </div>
+    </dialog>
+    </main>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.open-shoe').src = anything;
+        }
+    </script>
+</body>
+</html>
